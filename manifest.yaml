@@ -1,0 +1,5 @@
+slug: laogu-earnings
+display_name: 业绩预告解读
+description: 业绩预告解读：按关注清单扫描近1个月发布的业绩预告/快报，抓取正文提炼净利润区间与同比口径，输出中文解读与超预期判断。
+version: 1.0.0
+author: 老谷拆财报
