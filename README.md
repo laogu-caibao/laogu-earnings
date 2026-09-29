@@ -4,6 +4,27 @@
 
 业绩预告解读 skill：按关注清单扫描近 1 个月发布的业绩预告/业绩快报，抓取正文提炼利润区间与同比口径，输出中文解读与超预期判断。
 
+## 一键安装
+
+仓库地址（点击复制）：
+
+`https://github.com/laogu-caibao/laogu-earnings`
+
+**方式一：克隆**
+
+```bash
+git clone https://github.com/laogu-caibao/laogu-earnings.git
+```
+
+**方式二：下载 ZIP**
+
+https://github.com/laogu-caibao/laogu-earnings/archive/refs/heads/main.zip
+
+**导入使用**
+
+- Claude Code / Muse：把仓库中的 `SKILL.md` 放到 `~/.claude/skills/laogu-earnings/` 下即可调用。
+- 豆包智能体 / Workbuddy 等：按各平台的 skill 上传流程导入 `SKILL.md`。
+- 一次装好全部 16 个：用 [laogu-mcp](https://github.com/laogu-caibao/laogu-mcp)，`uvx laogu-mcp` 一键安装。
 ## 文件结构
 
 - `SKILL.md` — 主流程（平台中立，定时能力由宿主平台提供）
